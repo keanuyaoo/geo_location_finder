@@ -19,7 +19,7 @@
     [self.locationManager setDelegate:self];
     self.locationManager.desiredAccuracy    =   kCLLocationAccuracyBest;
       if (@available(iOS 9.0, *)) {
-          self.locationManager.allowsBackgroundLocationUpdates = YES;
+        //   self.locationManager.allowsBackgroundLocationUpdates = YES;
       } else {
           // Fallback on earlier versions
       }

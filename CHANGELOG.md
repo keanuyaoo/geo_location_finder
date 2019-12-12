@@ -1,3 +1,8 @@
+## 1.0.8
+
+* Use OC
+* Delete allowsBackground in iOS
+
 ## 1.0.7
 
 * Updated CHANGELOG.md
