@@ -203,7 +203,9 @@ public class FlutterLocationPlugin implements MethodCallHandler, PluginRegistry.
         HashMap<String, Object> map = new HashMap<>();
         map.put("status", false);
         map.put("message", message);
-        _result.success(map);
+        if(_result != null){
+            _result.success(map);
+        }
     }
 
 }
